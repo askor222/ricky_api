@@ -37,7 +37,7 @@ Criterios de rendimiento
 
 Herramienta de organización:
 + [Trello]( https://trello.com/b/YGoGUCS4/consumo-de-una-api )
-+ [Trello]( https://www.figma.com/file/P6Z2RGZVuZnqTZygjqu7Zu/Consumo-de-una-APInode-id=0-1&t=ZC0665siiBlLaDw7-0 )
++ [Figma]( https://www.figma.com/file/P6Z2RGZVuZnqTZygjqu7Zu/Consumo-de-una-APInode-id=0-1&t=ZC0665siiBlLaDw7-0 )
 
 
 #
@@ -55,7 +55,7 @@ S
 
 <div>
 <p style = 'text-align:center;'>
-<img src="img/ecomerceUML.png">
+<img src="img/uml.jpg">
 </p>
 </div>
 
