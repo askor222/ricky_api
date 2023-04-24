@@ -36,7 +36,8 @@ Criterios de rendimiento
 
 
 Herramienta de organización:
-+ [Proyecto Trello]( https://trello.com/b/YGoGUCS4/consumo-de-una-api )
++ [Trello]( https://trello.com/b/YGoGUCS4/consumo-de-una-api )
++ [Trello]( https://www.figma.com/file/P6Z2RGZVuZnqTZygjqu7Zu/Consumo-de-una-APInode-id=0-1&t=ZC0665siiBlLaDw7-0 )
 
 
 #
@@ -46,19 +47,10 @@ Herramienta de organización:
 <img src="img/html-5.png" width="20%">
 <img src="img/css-3.png" width="25%">
 <img src="img/js.png" width="20%">
-<img src="img/node-sass.svg" width="20%">
 </p>
 </div>
 
-
-## Nombre de la tienda: Rick And Morty
-# METAVISION
-
-Objetivo: tienda online para vender accesorios electrónicos, nos enfocamos en 3 sectores especifico:
-- Accesorios de movil.
-- Accesorios de ordenador.
-- Accesorios de metaverso.
-
+S
 ## Navegación básica de nuestro usuario UML (Lenguaje Unificado de Modelado; Unified Modeling Language)
 
 <div>
