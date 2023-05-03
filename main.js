@@ -1,8 +1,5 @@
-// modal selector -----------------------------------------------------------------------------
 
-const openModal = document.querySelector('.hero__cta');
-const modal = document.querySelector('.modal');
-const closeModal = document.querySelector('.modal__close');
+
 
 // modal selector -----------------------------------------------------------------------------
 
@@ -23,6 +20,12 @@ for(let i = 1; i <= 10; i++){ //826
     //duda: el parametro data no lo entiendo
 function mostrarPokemon(poke){  // poke hace referencia a todo el objeto
 
+// modal selector -----------------------------------------------------------------------------
+    const openModal = document.querySelector('.hero__cta');
+    const modal = document.querySelector('.modal');
+    const closeModal = document.querySelector('.modal__close');
+
+    
     let tipos = poke.status
     console.log(tipos);
 
@@ -45,10 +48,41 @@ function mostrarPokemon(poke){  // poke hace referencia a todo el objeto
                 <p class="grass tipo">${gender}</p>
             </div>
             <div class="pokemon-stats">
-            <button onclick=verProducto(${id}) >hola amigo</button>
+            //button
+            <header class="hero">
+              <section class="hero__main container">
+                  <div class="hero__texts">
+                      <a href="#" class="hero__cta" id="join">Join us!</a>
+                  </div>
+              </section>
+        
+              <div style="height: 150px; overflow: hidden;" class="hero__waves" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C262.08,217.40 378.89,-120.09 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+            </header>
+        
+        
+          <!-- Letter --------------------------------------------------->
+          <section class="modal ">
+            <div class="modal__container">
+              <img src="" class="modal__img">
+              <h2 class="modal__title">¡estas viendo el modal!</h2>
+              <p class="modal__paragraph">este es un parrafo</p>
+              <a href="#" class="modal__close">Cerrar Modal</a>
+          </div>
+          </section>
+
             </div>
         </div>`;
     listaPokemon.append(div);
+
+    openModal.addEventListener('click', (e)=>{
+        e.preventDefault();
+        modal.classList.add('modal--show');
+    });
+    
+    closeModal.addEventListener('click', (e)=>{
+        e.preventDefault();
+        modal.classList.remove('modal--show');
+    });
 }
 
 async function verProducto(id){
@@ -58,14 +92,3 @@ async function verProducto(id){
 
 
 // modal -----------------------------------------------------------------------------
-
-
-openModal.addEventListener('click', (e)=>{
-    e.preventDefault();
-    modal.classList.add('modal--show');
-});
-
-closeModal.addEventListener('click', (e)=>{
-    e.preventDefault();
-    modal.classList.remove('modal--show');
-});
