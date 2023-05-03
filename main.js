@@ -1,7 +1,16 @@
+// modal selector -----------------------------------------------------------------------------
+
+const openModal = document.querySelector('.hero__cta');
+const modal = document.querySelector('.modal');
+const closeModal = document.querySelector('.modal__close');
+
+// modal selector -----------------------------------------------------------------------------
+
+
 const listaPokemon = document.querySelector('#listaPokemon')
 let url = `https://rickandmortyapi.com/api/character/`;
 
-for(let i = 1; i <= 826; i++){ //826
+for(let i = 1; i <= 10; i++){ //826
     fetch(url + i)
         .then(res => res.json())
         // como se relaciona este funcion promesa con el funcion que creamos fuera
@@ -45,3 +54,18 @@ function mostrarPokemon(poke){  // poke hace referencia a todo el objeto
 async function verProducto(id){
     console.log(id)
 }
+
+
+
+// modal -----------------------------------------------------------------------------
+
+
+openModal.addEventListener('click', (e)=>{
+    e.preventDefault();
+    modal.classList.add('modal--show');
+});
+
+closeModal.addEventListener('click', (e)=>{
+    e.preventDefault();
+    modal.classList.remove('modal--show');
+});
