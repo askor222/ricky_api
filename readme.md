@@ -1,7 +1,7 @@
 # Rick And Morty
 
 Equipo:
-+ El jefe encargado: Kibria (el mejor de los mejores).
++ El jefe encargado: Kibria.
 
 
 
