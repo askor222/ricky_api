@@ -7,7 +7,7 @@
 const listaPokemon = document.querySelector('#listaPokemon')
 let url = `https://rickandmortyapi.com/api/character/`;
 
-for(let i = 1; i <= 10; i++){ //826
+for(let i = 1; i <= 826; i++){ //826
     fetch(url + i)
         .then(res => res.json())
         // como se relaciona este funcion promesa con el funcion que creamos fuera
@@ -15,16 +15,8 @@ for(let i = 1; i <= 10; i++){ //826
 }
 
 
-
-
     //duda: el parametro data no lo entiendo
 function mostrarPokemon(poke){  // poke hace referencia a todo el objeto
-
-// modal selector -----------------------------------------------------------------------------
-    const openModal = document.querySelector('.hero__cta');
-    const modal = document.querySelector('.modal');
-    const closeModal = document.querySelector('.modal__close');
-
     
     let tipos = poke.status
     console.log(tipos);
@@ -52,18 +44,5 @@ function mostrarPokemon(poke){  // poke hace referencia a todo el objeto
             </div>
         </div>`;
     listaPokemon.append(div);
-
-    openModal.addEventListener('click', (e)=>{
-        e.preventDefault();
-        modal.classList.add('modal--show');
-    });
-    
-    closeModal.addEventListener('click', (e)=>{
-        e.preventDefault();
-        modal.classList.remove('modal--show');
-    });
 }
 
-async function verProducto(id){
-    console.log(id)
-}

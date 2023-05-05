@@ -19,6 +19,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.btn btn-header fire{
+    color: black;
+}
+
 ul {
     list-style-type: none;
 }
