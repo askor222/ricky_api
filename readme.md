@@ -44,7 +44,7 @@ Herramienta de organización:
 ## Tecnología
 <div>
 <p style = 'text-align:center;'>
-<img src="img/tecnologia.jpg" width="20%">
+<img src="img/tecnologia.jpg" width="30%">
 
 </p>
 </div>
