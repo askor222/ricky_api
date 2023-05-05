@@ -48,12 +48,3 @@ Herramienta de organización:
 
 </p>
 </div>
-
-S
-## Navegación básica de nuestro usuario UML (Lenguaje Unificado de Modelado; Unified Modeling Language)
-
-<div>
-<p style = 'text-align:center;'>
-<img src="img/uml.jpg">
-</p>
-</div>
