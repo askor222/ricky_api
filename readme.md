@@ -6,8 +6,8 @@ Equipo:
 
 
 Temporacización:
- + Inicio: 24/03/2023
- + Fin: 04/04/2023
+ + Inicio: 24/04/2023
+ + Fin: 05/05/2023
  
 #
 ### Contexto del proyecto (apernder a usar API)
@@ -44,9 +44,8 @@ Herramienta de organización:
 ## Tecnología
 <div>
 <p style = 'text-align:center;'>
-<img src="img/html-5.png" width="20%">
-<img src="img/css-3.png" width="25%">
-<img src="img/js.png" width="20%">
+<img src="img/tecnologia.jpg" width="20%">
+
 </p>
 </div>
 
