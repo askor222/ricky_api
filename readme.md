@@ -1,15 +1,8 @@
-# Rick And Morty
-
-Equipo:
-+ El jefe encargado: Kibria.
-
-
-
-Temporacización:
- + Inicio: 24/04/2023
- + Fin: 05/05/2023
+# Bienvenid@s a mi proyecto "Ricky_Api"
  
-#
+# [Haz click aqui para ver demo 🔗]( https://rickyapi.netlify.app/ )
+
+
 ### Contexto del proyecto (apernder a usar API)
 Requisitos obligatorios:
 * Desarrollar una página web con HTML, CSS, Javascript
@@ -41,6 +34,11 @@ Herramienta de organización:
 
 
 #
+
+Temporacización:
+ + Inicio: 24/04/2023
+ + Fin: 05/05/2023
+
 ## Tecnología
 <div>
 <p style = 'text-align:center;'>
