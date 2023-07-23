@@ -11,7 +11,15 @@ Requisitos obligatorios:
 * Estar documentada con su respectivo README
 * Utilizar Bootstrap o una librería de diseño
 
-
+EXTRA:
+* La sección está hecha con paginación
+* Ver el detalles de un solo elemento
+* Filtrar la información traída por la API
+* Hacer Deploy en Github
+* Consumir N APIs
+* Crear un Json y consumir la información
+* Validar con alguna función de Javascript el funcionamiento de la página (test)
+* Consumir una API securizada (usuario y contraseña y token)
 
 Criterios de rendimiento
 ● El alumno debe lograr explicar la mayoría del código.
